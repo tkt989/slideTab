@@ -1,0 +1,114 @@
+
+html {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	line-height: 100%;
+	font-size: 12px;
+
+	width: 310px;
+	margin: 0px;
+	padding: 0px;
+	min-height: 0px;
+	max-height: 100px;
+}
+
+body {
+	background-color: #f3f5ff;
+	margin: 0px;
+}
+
+ul {
+	margin: 0px;
+	margin-top: 5px;
+	padding: 0px;
+}
+
+img, #plus, .title, .close {
+	position: relative;
+	top: 50%;
+	margin-top: -8px;
+}
+
+#tabs li {
+	-webkit-user-select: none;
+	float: left;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	width: 310px;
+	cursor: pointer;
+	clear: both;
+	height: 20px;
+}
+
+#plus, .close {
+	width: 16px;
+	height: 16px;
+	float: right;
+}
+
+img {
+	float: left;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+#newTab {
+	border-top: 1px solid #666666;;
+	font-weight: bold;
+}
+
+#newTab:hover {
+	background-color: #dcdcdc;
+}
+
+#plus {
+	margin-left: 2px;
+	margin-right: 2px;
+	float: left;
+	background-image: url(newTab.png);
+}
+
+#plus:hover {
+}
+
+.tab {
+}
+
+.tab:hover {
+	background-color: #dcdcdc;
+}
+
+.placeholder {
+	background-color: #efefef;
+}
+
+#selected {
+	background-color: #ffff99;
+}
+
+#selected:hover {
+}
+
+.title {
+	overflow-y: hidden;
+	float: left;
+	width: 290px;
+	margin-top: -8px;
+	overflow-x: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.close {
+	margin-left: -2px;
+	background-image: url(close.png);
+}
+
+.close:hover {
+	background-position: -16px 0px;
+}
